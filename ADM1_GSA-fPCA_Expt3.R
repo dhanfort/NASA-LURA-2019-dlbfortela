@@ -6,7 +6,7 @@ library(fda)
 library(sensitivity)
 
 # Set the working directory where outputs will be saved
-directory = "/Users/dhan-lordfortela/Documents/EIL/Proposals/LURA 2019/LURA_working/BIOSYS_Bioprocesses_INTEGRATED/ADM1_Old_Published";
+directory = "..."; #paste the path to your working directory in "..."
 setwd(directory);
 
 write.csv(seq(0,5,by=1), quote = FALSE, "testoutput.csv"); # Test directory is okay before the long computation stage
