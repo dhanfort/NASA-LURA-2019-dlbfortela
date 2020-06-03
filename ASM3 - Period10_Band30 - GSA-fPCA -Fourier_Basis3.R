@@ -1,6 +1,6 @@
 ###
 # This script executes GSA-fPCA on the Activated Sludge Model No. 3 (ASM3)
-# Code by Fortela DLB, et al. (2018)
+# Code by Alyssa DeLattre & DLB Fortela  (2020)
 # The Energy Institute, University of Louisiana, Lafayette, LA 70504 USA
 ###
 
@@ -10,12 +10,12 @@ library(fda); # To perform PCA
 library(sensitivity); # To perform GSA
 
 # Set the working directory
-directory = "/Users/dhan-lordfortela/Documents/EIL/Proposals/LURA 2019/LURA_working/BIOSYS_Bioprocesses_INTEGRATED/ASM3_Old_Published";
+directory = "..."; #paste the path to your working director in "..."
 setwd(directory);
 
 # Create a dummy csv file in the directory folder to check validity of path
 write.csv(c(seq(0,3,by=1), format(Sys.time(), "%a %b %d %X %Y")), quote = FALSE, "testoutput.csv");
-Run_code="Period10Band30_Fourier_Basis3_r100";
+Run_code="Period10Band30_BSplines_Basis_r100";
 
 r = 2; # Setting the number of EE's for the Morris GSA
 RNG = 1; # Number of Random Numer Generator (RNG) seeds
@@ -390,9 +390,9 @@ for(i in 1:RNG) {
       
       
       # Turn the vectors of model values into functional objects
-      basisobjFourier <- create.bspline.basis(rangeval = c(0,Period))
+      basisobjBSplines <- create.bspline.basis(rangeval = c(0,Period))
       
-      yf <- Data2fd(seq(0,Period,length = N), y_j, basisobj = basisobjFourier)
+      yf <- Data2fd(seq(0,Period,length = N), y_j, basisobj = basisobjBSplines)
       
       
       # Then calculate the first 3 PCs using the fda
