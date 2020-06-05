@@ -4,7 +4,7 @@
 # and revised accordingly by A. DeLattre and D.L.B. Fortela (2019-2020)
 # for the LURA 2019 Project sponsored by LaSPACE
 #
-# This script executes GSA-fPCA calculaitons on the Anaerobic Digestion Model No.1 (ADM1)
+# This script executes GSA-fPCA calculations on the Anaerobic Digestion Model No.1 (ADM1)
 # based on the model Handbook published by the Internaitonal Water Association (IWA)
 # Title: Anaerobic Digestion Model No.1 (ADM1), 2002
 # Authored by D.J. Batstone; J. Keller;I. Angelidaki;S.V. Kalyuzhnyi;
@@ -16,6 +16,7 @@
 # R installer may be downloaded from the R-project website: https://www.r-project.org/
 # We executed R via RStudio, which is an integrated development environment (IDE) for R
 # RStudio may be downloaded for free from RStudio website: https://rstudio.com/
+# We suggest the user to run R via RStudio for more organized workflow
 ##----------------------------------------------------------------
 
 
