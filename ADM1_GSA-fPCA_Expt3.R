@@ -4,10 +4,12 @@
 # and revised accordingly by A. DeLattre and D.L.B. Fortela (2019-2020)
 # for the LURA 2019 Project sponsored by LaSPACE
 #
-# This script executes GSA-Morris on the Anaerobic Digestion Model No. 1 (ADM1)
-# Handbook published by the Internaitonal Water Association (IWA)
+# This script executes GSA-fPCA calculaitons on the Anaerobic Digestion Model No.1 (ADM1)
+# based on the model Handbook published by the Internaitonal Water Association (IWA)
+# Title: Anaerobic Digestion Model No.1 (ADM1), 2002
 # Authored by D.J. Batstone; J. Keller;I. Angelidaki;S.V. Kalyuzhnyi;
 # S.G. Pavlostathis;A. Rozzi;W.T.M. Sanders;H. Siegrist;V.A. Vavilin
+# ISBN13: 9781900222785 
 # The constants are based on the nominal values suggested in the ADM1 handbook
 #
 # This must be executed in the R-statictical software, an open-source computing software
@@ -25,7 +27,7 @@ library(sensitivity) #attach the 'sensitivity' package; functions for GSA (Morri
 
 # Set the working directory where outputs will be saved
 directory = "..."; #paste the path to your working directory in "..."
-setwd(directory);
+setwd(directory); #setting the working directory
 
 write.csv(seq(0,5,by=1), quote = FALSE, "testoutput.csv"); # Test directory is okay before the long computation stage
 
@@ -36,7 +38,7 @@ write.csv(seq(0,5,by=1), quote = FALSE, "testoutput.csv"); # Test directory is o
 
 r = 2; # Setting the number of EE's for the Morris GSA
 RNG = 1; # Number of Random Numer Generator (RNG) seeds
-k = 22;
+k = 22; # Number of model parameters undergoing GSA analysis
   
 mu_RNG_ind_ALL <- data.frame(); # Initialize the results data frame for EE's mu
 mu.star_RNG_ind_ALL <- data.frame(); # Initialize the results data frame for EE's mu*
