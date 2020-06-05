@@ -33,7 +33,7 @@ library(sensitivity) #attach the 'sensitivity' package; functions for GSA (Morri
 
 
 # Set the working directory where outputs will be saved
-directory = "..."; #paste the path to your working directory in "..."
+directory = "..."; #paste the path to your working directory in "..."; make sure to use forward slash "/"
 setwd(directory); #setting the working directory
 
 write.csv(seq(0,5,by=1), quote = FALSE, "testoutput.csv"); # Test directory is okay before the long computation stage
