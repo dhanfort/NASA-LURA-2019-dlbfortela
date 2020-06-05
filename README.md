@@ -15,7 +15,7 @@
  The R installer may be downloaded from the R-project website: https://www.r-project.org/.
  We executed R via RStudio, which is an integrated development environment (IDE) for R.
  RStudio may be downloaded for-free from RStudio website: https://rstudio.com/.
- We suggest the user to run R via RStudio for more organized workflow.
+ We suggest the user to run R via RStudio for more organized workflow. Click "View Code" to see the files.
  
  We are grateful to LaSPACE and NASA for funding this research project.
  Go LaSPACE! Go NASA!
