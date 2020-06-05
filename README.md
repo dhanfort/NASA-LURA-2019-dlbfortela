@@ -3,10 +3,10 @@
 ----------------------------------------------------------------
  This GitHub repository contains the R-scripts authored by 
  Alyssa DeLattre (apprentice student) and Dr. Dhan Lord B. Fortela (faculty-mentor)
- for the LURA 2019-2020 Project sponsored by LaSPACE
- LSU Sub-award No.: PO-0000105697
- Primary NASA Agreement No.: NNX15AH82H
- LaSPACE - Louisiana Space Consortium: https://laspace.lsu.edu/about-us/
+ for the LURA 2019-2020 Project sponsored by LaSPACE.
+ LSU Sub-award No.: PO-0000105697;
+ Primary NASA Agreement No.: NNX15AH82H;
+ LaSPACE - Louisiana Space Consortium: https://laspace.lsu.edu/about-us/.
 
  This LURA project was conducted at the University of Louisiana at Lafayette
  Department of Chemical Engineering: https://chemical.louisiana.edu/
