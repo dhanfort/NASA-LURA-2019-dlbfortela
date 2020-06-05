@@ -11,11 +11,11 @@
  This LURA project was conducted at the University of Louisiana at Lafayette
  Department of Chemical Engineering: https://chemical.louisiana.edu/
 
- The R-scripts must be executed in the R-statistical software, an open-source computing software
- R installer may be downloaded from the R-project website: https://www.r-project.org/
- We executed R via RStudio, which is an integrated development environment (IDE) for R
- RStudio may be downloaded for free from RStudio website: https://rstudio.com/
- We suggest the user to run R via RStudio for more organized workflow
+ The R-scripts must be executed in the R-statistical software, an open-source computing software.
+ The R installer may be downloaded from the R-project website: https://www.r-project.org/.
+ We executed R via RStudio, which is an integrated development environment (IDE) for R.
+ RStudio may be downloaded for free from RStudio website: https://rstudio.com/.
+ We suggest the user to run R via RStudio for more organized workflow.
 
 ----------------------------------------------------------------
  We are grateful to LaSPACE and NASA for funding this research project.
