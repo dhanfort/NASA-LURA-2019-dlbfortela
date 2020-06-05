@@ -43,8 +43,8 @@ write.csv(seq(0,5,by=1), quote = FALSE, "testoutput.csv"); # Test directory is o
 # i is the integer agrument to the set.seed(i) for RNG
 # r is the number of elementary effects (EE's) for Morris GSa
 
-r = 2; # Setting the number of EE's for the Morris GSA
-RNG = 1; # Number of Random Numer Generator (RNG) seeds
+r = 50; # Setting the number of EE's for the Morris GSA; too low is not good; we found r=50 is good; use r=2 just for testing
+RNG = 3; # Number of Random Numer Generator (RNG) seeds; this affects the random sampling of Morris
 k = 22; # Number of model parameters undergoing GSA analysis
   
 mu_RNG_ind_ALL <- data.frame(); # Initialize the results data frame for EE's mu
