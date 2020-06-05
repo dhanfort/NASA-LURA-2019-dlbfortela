@@ -1,8 +1,28 @@
-###
-# This script executes GSA-fPCA on the Activated Sludge Model No. 3 (ASM3)
-# Code by Alyssa DeLattre & DLB Fortela  (2020)
-# The Energy Institute, University of Louisiana, Lafayette, LA 70504 USA
-###
+##----------------------------------------------------------------
+# This R-script was adopted from Fortela et al. (2019) Water Environment Research, Vol 91(9), P.865-876
+# DOI: https://doi.org/10.1002/wer.1127
+# and revised accordingly by A. DeLattre and D.L.B. Fortela (2019-2020)
+# for the LURA 2019 Project sponsored by LaSPACE
+# Sub-award No.: PO-0000105697
+# Primary NASA Agreement No.: NNX15AH82H
+# LaSPACE - Louisiana Space Consortium: https://laspace.lsu.edu/about-us/
+#
+# This LURA project was conducted at the University of Louisiana at Lafayette
+# Department of Chemical Engineering: https://chemical.louisiana.edu/
+#
+# This script executes GSA-fPCA calculations on the Activated Sludge Model No.3 (ASM3)
+# Title: Activated Sludge Models: ASM1, ASM2, ASM2d and ASM3 (2002)
+# Authors: Henze, M., Gujer, W., Mino, T., & van Loosdrecht, M.
+# Publisher: London, UK: IWA Publishing. 
+# DOI: https://doi. org/10.2166/9781780402369.
+#
+# This must be executed in the R-statictical software, an open-source computing software
+# R installer may be downloaded from the R-project website: https://www.r-project.org/
+# We executed R via RStudio, which is an integrated development environment (IDE) for R
+# RStudio may be downloaded for free from RStudio website: https://rstudio.com/
+# We suggest the user to run R via RStudio for more organized workflow
+##----------------------------------------------------------------
+
 
 # Load the R-packages
 library(deSolve); # To solve the ODE's
@@ -10,16 +30,16 @@ library(fda); # To perform PCA
 library(sensitivity); # To perform GSA
 
 # Set the working directory
-directory = "..."; #paste the path to your working director in "..."
+directory = "..."; #paste the path to your working director in "..."; must use forward slash "/"
 setwd(directory);
 
 # Create a dummy csv file in the directory folder to check validity of path
 write.csv(c(seq(0,3,by=1), format(Sys.time(), "%a %b %d %X %Y")), quote = FALSE, "testoutput.csv");
 Run_code="Period10Band30_BSplines_Basis_r100";
 
-r = 2; # Setting the number of EE's for the Morris GSA
-RNG = 1; # Number of Random Numer Generator (RNG) seeds
-k = 43; # Number of Model Parameters under GSA study
+r = 50; # Setting the number of EE's for the Morris GSA; good value is r=50; use r=2 for testing
+RNG = 3; # Number of Random Numer Generator (RNG) seeds
+k = 43; # Number of ASM3 model parameters under GSA study
 
 # Initialize the dataframes for outputs
 mu_RNG_ind_ALL <- data.frame(); # Results data frame for EE's mu
