@@ -3,6 +3,12 @@
 # DOI: https://doi.org/10.1016/j.bej.2019.01.001
 # and revised accordingly by A. DeLattre and D.L.B. Fortela (2019-2020)
 # for the LURA 2019 Project sponsored by LaSPACE
+# Sub-award No.: PO-0000105697
+# Primary NASA Agreement No.: NNX15AH82H
+# LaSPACE - Louisiana Space Consortium: https://laspace.lsu.edu/about-us/
+#
+# This LURA project was conducted at the University of Louisiana at Lafayette
+# Department of Chemical Engineering: https://chemical.louisiana.edu/
 #
 # This script executes GSA-fPCA calculations on the Anaerobic Digestion Model No.1 (ADM1)
 # based on the model Handbook published by the Internaitonal Water Association (IWA)
