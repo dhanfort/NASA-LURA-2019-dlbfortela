@@ -16,7 +16,7 @@
 # Publisher: London, UK: IWA Publishing. 
 # DOI: https://doi. org/10.2166/9781780402369.
 #
-# This must be executed in the R-statictical software, an open-source computing software
+# This must be executed in the R-statistical software, an open-source computing software
 # R installer may be downloaded from the R-project website: https://www.r-project.org/
 # We executed R via RStudio, which is an integrated development environment (IDE) for R
 # RStudio may be downloaded for free from RStudio website: https://rstudio.com/
