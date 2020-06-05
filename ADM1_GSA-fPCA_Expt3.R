@@ -18,7 +18,7 @@
 # ISBN13: 9781900222785 
 # The constants are based on the nominal values suggested in the ADM1 handbook
 #
-# This must be executed in the R-statictical software, an open-source computing software
+# This must be executed in the R-statistical software, an open-source computing software
 # R installer may be downloaded from the R-project website: https://www.r-project.org/
 # We executed R via RStudio, which is an integrated development environment (IDE) for R
 # RStudio may be downloaded for free from RStudio website: https://rstudio.com/
