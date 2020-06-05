@@ -8,7 +8,7 @@
  Primary NASA Agreement No.: NNX15AH82H;
  LaSPACE - Louisiana Space Consortium: https://laspace.lsu.edu/about-us/.
 
- This LURA project was conducted at the University of Louisiana at Lafayette
+ This LURA project was conducted at the University of Louisiana at Lafayette,
  Department of Chemical Engineering: https://chemical.louisiana.edu/
 
  The R-scripts must be executed in the R-statistical software, an open-source computing software.
