@@ -1,7 +1,7 @@
 # NASA-LURA-2019-dlbfortela
 
 ----------------------------------------------------------------
- This GitHub repository contains the R-scripts authored by 
+ This GitHub repository contains the R-scripts coded by 
  Alyssa DeLattre (apprentice student) and Dr. Dhan Lord B. Fortela (faculty-mentor)
  for the LURA 2019-2020 Project sponsored by LaSPACE.
  LSU Sub-award No.: PO-0000105697;
