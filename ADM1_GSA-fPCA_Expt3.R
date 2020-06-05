@@ -1,9 +1,27 @@
-## This script executes GSA-Morris on the Anaerobic Digestion Model No. 1 (ADM1)
-## The constants are based on the MS Thesis
+##----------------------------------------------------------------
+# This R-script was adopted from Fortela et al. (2019) Biochemical Engineering Journal, Vol 143, P.212-223
+# DOI: https://doi.org/10.1016/j.bej.2019.01.001
+# and revised accordingly by A. DeLattre and D.L.B. Fortela (2019-2020)
+# for the LURA 2019 Project sponsored by LaSPACE
+#
+# This script executes GSA-Morris on the Anaerobic Digestion Model No. 1 (ADM1)
+# Handbook published by the Internaitonal Water Association (IWA)
+# Authored by D.J. Batstone; J. Keller;I. Angelidaki;S.V. Kalyuzhnyi;
+# S.G. Pavlostathis;A. Rozzi;W.T.M. Sanders;H. Siegrist;V.A. Vavilin
+# The constants are based on the nominal values suggested in the ADM1 handbook
+#
+# This must be executed in the R-statictical software, an open-source computing software
+# R installer may be downloaded from the R-project website: https://www.r-project.org/
+# We executed R via RStudio, which is an integrated development environment (IDE) for R
+# RStudio may be downloaded for free from RStudio website: https://rstudio.com/
+##----------------------------------------------------------------
 
-library(deSolve)
-library(fda)
-library(sensitivity)
+
+##----------------------------------------------------------------
+library(deSolve) #attach the 'deSolve' package; functions for solving the ODE's
+library(fda) #attach the 'fda' package; functions for fPCA
+library(sensitivity) #attach the 'sensitivity' package; functions for GSA (Morris GSA)
+
 
 # Set the working directory where outputs will be saved
 directory = "..."; #paste the path to your working directory in "..."
