@@ -13,7 +13,7 @@
  We executed R via RStudio, which is an integrated development environment (IDE) for R.
  RStudio may be downloaded for-free from RStudio website: https://rstudio.com/.
  We suggest the user to run R via RStudio for more organized workflow. 
- When using mobile web-browser , click "View code" to see the files.
+ When viewing this page with mobile web-browser, click "View code" to see the files.
  
  This LURA project was conducted at the University of Louisiana at Lafayette,
  Department of Chemical Engineering: https://chemical.louisiana.edu/. 
