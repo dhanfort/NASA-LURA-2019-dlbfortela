@@ -1,3 +1,4 @@
+# This is coded for the Algae model, but you may modify it for AMD1 and ASM3 data analysis
 # Use this R-script to process the results of RANKING
 # So, run the RANKING code first before this code
 # Then Import the .csv file results of RANKING through line #14
