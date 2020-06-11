@@ -1,8 +1,9 @@
-# ASM3-GSA: Script for the avrages of mu_star values and calc of their rankings
+# This is coded for the Algae model, but you may modify it for AMD1 and ASM3 data analysis
+# Algae-GSA_indices: Script for the avrages of mu_star values and calc of their rankings
 
-# Oad the data from directory
-setwd("/Users/dhan-lordfortela/Documents/EIL/Proposals/LURA 2019/LURA_working/Processed/trial6_batch_1day_r50_RNG_1to5");
-mydata <- read.csv("r50-ALGAE-GSA-FPCA_batch1days_05192020_trial6_mu_star_ALL.csv");
+# Load the data from directory
+setwd("..."); # paste the path to your working directory into "..."
+mydata <- read.csv("r50-ALGAE-GSA-FPCA_batch1days_05192020_trial6_mu_star_ALL.csv"); # paste the filename of the mu_Star GSA
 mydata <- mydata[,-1];
 
 # Set analysis conditions/givens
