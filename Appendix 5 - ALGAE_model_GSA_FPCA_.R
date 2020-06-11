@@ -1,3 +1,27 @@
+##----------------------------------------------------------------
+# This R-script was originally coded by A. DeLattre and D.L.B. Fortela (2019-2020)
+# for the LURA 2019 Project sponsored by LaSPACE
+# Sub-award No.: PO-0000105697
+# Primary NASA Agreement No.: NNX15AH82H
+# LaSPACE - Louisiana Space Consortium: https://laspace.lsu.edu/about-us/
+#
+# This LURA project was conducted at the University of Louisiana at Lafayette
+# Department of Chemical Engineering: https://chemical.louisiana.edu/
+#
+# This script executes GSA-fPCA calculations on the Algae Model formlated by
+# Solimeno, A., R. Samsó, E. Uggetti, B. Sialve, J.-P. Steyer, A. Gabarró and J. García (2015). 
+# "New mechanistic model to simulate microalgae growth." Algal Research 12: 350-358.
+#
+# This must be executed in the R-statistical software, an open-source computing software
+# R installer may be downloaded from the R-project website: https://www.r-project.org/
+# We executed R via RStudio, which is an integrated development environment (IDE) for R
+# RStudio may be downloaded for free from RStudio website: https://rstudio.com/
+# We suggest the user to run R via RStudio for more organized workflow
+##----------------------------------------------------------------
+
+
+##----------------------------------------------------------------
+
 # ALGAE Model
 # Batch mode, check line 47-48
 
@@ -6,7 +30,7 @@ library(fda)
 library(sensitivity)
 
 # Set the working directory where outputs will be saved
-directory = "/Users/dhan-lordfortela/Documents/EIL/Proposals/LURA 2019/LURA_working/trial6_batch_1day_r50_RNG_1to5";
+directory = "..."; #paste the path to the working directory; use forward slash
 setwd(directory);
 
 write.csv(seq(0,5,by=1), quote = FALSE, "testoutput.csv"); # Test directory is okay before the long computation stage
