@@ -1,14 +1,32 @@
 #GSA on INTEGRATED MODEL FOR ADM1, ASM3, AND ALGAE MODELS
+#
+##----------------------------------------------------------------
+# This R-script was originally coded by A. DeLattre and D.L.B. Fortela (2019-2020)
+# for the LURA 2019 Project sponsored by LaSPACE
+# Sub-award No.: PO-0000105697
+# Primary NASA Agreement No.: NNX15AH82H
+# LaSPACE - Louisiana Space Consortium: https://laspace.lsu.edu/about-us/
+#
+# This LURA project was conducted at the University of Louisiana at Lafayette
+# Department of Chemical Engineering: https://chemical.louisiana.edu/
+#
+# This script executes GSA-fPCA calculations on the 
+# Integrated BIOSYS Model for ADM1, ASM3, AND ALGAE Bioprocesses
+#
+# This must be executed in the R-statistical software, an open-source computing software
+# R installer may be downloaded from the R-project website: https://www.r-project.org/
+# We executed R via RStudio, which is an integrated development environment (IDE) for R
+# RStudio may be downloaded for free from RStudio website: https://rstudio.com/
+# We suggest the user to run R via RStudio for more organized workflow
+##----------------------------------------------------------------
 
-
-
-#This script executes ADM1 using deSolve
+# Load the required R-packages
 library(deSolve)
 library(fda)
 library(sensitivity)
 
 # Set the working directory where outputs will be saved
-directory = "/Users/dhan-lordfortela/Documents/EIL/Proposals/LURA 2019/LURA_working/BIOSYS_Bioprocesses_INTEGRATED/GSA Model Integration-ADM1_ASM3_Algae/BIOSYS_Model_Integration-ADM1_ASM3_Algae-Under_GSA_fPCA_v060420"
+directory = "..." # paste the path to the working directory
 setwd(directory);
 
 write.csv(seq(0,5,by=1), quote = FALSE, "testoutput.csv"); # Test directory is okay before the long computation stage
