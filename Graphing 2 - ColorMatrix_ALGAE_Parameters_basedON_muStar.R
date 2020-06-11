@@ -1,4 +1,6 @@
-
+# Use this R-script to process the results of RANKING
+# So, run the RANKING code first before this code
+# Then Import the .csv file results of RANKING through line #14
 
 library(ggplot2)
 library(RColorBrewer)
@@ -9,8 +11,9 @@ library(grDevices);
 library(ggthemes);
 
 
-setwd("/Users/dhan-lordfortela/Documents/EIL/Proposals/LURA 2019/LURA_working/Processed/trial6_batch_1day_r50_RNG_1to5")
-mydata <- read.csv("Nominal-SigmaRanks-r50-ALGAE-GSA-FPCA_05172020_trial6-PC1.csv")
+setwd("...") # paste your wroking directory path here; use forward slash
+
+mydata <- read.csv("yyyy.csv") #paste the filename of the CSV file onto the "yyyy"
 #j_names <- c('SO2', 'SS', 'SNH4', 'SNO2', 'SNO3', 'SN2', 'SALK', 'SI', 'XI', 'XH', 'XS', 'XSTO', 'XAOB', 'XNOB');
 j_names <- c('01', '02', '03', '04', '05', '06', '07', '08', '09', '10');
 mydata$y1 <- j_names[mydata$j];
