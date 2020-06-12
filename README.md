@@ -3,10 +3,10 @@
 ----------------------------------------------------------------
  This GitHub repository contains the R-scripts coded by 
  Alyssa DeLattre (apprentice student, Chemical Enigneering) and Dr. Dhan Lord B. Fortela (faculty-mentor; Principal Investigator (PI); Chemical Engineering)
- for the LURA 2019-2020 Project sponsored by the Louisiana Space Grant Consortium (LaSPACE).
+ for the LURA 2019-2020 Project sponsored by the Louisiana Space Grant Consortium (LaSPACE): https://laspace.lsu.edu/about-us/.
  LSU Sub-award No.: PO-0000105697;
- Primary NASA Agreement No.: NNX15AH82H;
- LaSPACE - Louisiana Space Consortium: https://laspace.lsu.edu/about-us/.
+ Primary NASA Agreement No.: NNX15AH82H.
+
 
  The R-scripts must be executed in the R-statistical software, an open-source computing software.
  The R installer may be downloaded from the R-project website: https://www.r-project.org/.
