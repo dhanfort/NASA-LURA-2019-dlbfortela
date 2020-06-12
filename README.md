@@ -16,7 +16,7 @@
  When viewing this page with mobile web-browser, click "View code" to see the files.
  
  This LURA project was conducted at the University of Louisiana at Lafayette,
- Department of Chemical Engineering: https://chemical.louisiana.edu/. 
+ Department of Chemical Engineering: https://chemical.louisiana.edu/. For future project collaborations contact Dr. Fortela at dhanlord.fortela@louisiana.edu. 
  We are grateful to LaSPACE and NASA for funding this research project.
  Go LaSPACE! Go NASA!
 
